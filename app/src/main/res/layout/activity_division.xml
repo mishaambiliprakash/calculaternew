@@ -1,0 +1,46 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditText
+            android:id="@+id/num1"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:hint="Enter Num 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/num2"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:hint="Enter Num 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="mybtnclick"
+            android:layout_margin="10dp"
+            android:text="DIV"
+            android:background="@drawable/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="backclick"
+            android:layout_margin="10dp"
+            android:text="BACK"
+            android:background="@drawable/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
